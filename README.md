@@ -69,7 +69,7 @@ go run main.go
 
 Ao executar o projeto, verá um fluxo contínuo de dados no seu terminal com a seguinte convenção de cores:
 
-- 🟢 Logs em Verde (📤 [MOTO-XX]): Representam os dados de GPS simulados a serem enviados pelas Goroutines para o tópico do Kafka.
+- 🟢 Logs em Verde (📤 [ENTREGADOR-XX]): Representam os dados de GPS simulados a serem enviados pelas Goroutines para o tópico do Kafka.
 
 - 🔵 Logs em Azul (📥 [PROCESSADOR]): Representam o motor de processamento a ler os eventos do Kafka em tempo real.
 
